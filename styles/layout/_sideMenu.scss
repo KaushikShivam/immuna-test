@@ -1,0 +1,65 @@
+.sideMenu {
+  width: 26.8rem;
+  background: $color-white;
+  box-shadow: 0px 2px 10px rgba(132, 132, 132, 0.07);
+  height: 100vh;
+
+  &__logo {
+    height: $nav-height;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__list {
+    margin-top: 7.12rem;
+    list-style: none;
+
+    li {
+      margin: 0 3.7rem;
+      height: 4.8rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      border-radius: 1.2rem;
+
+      &:hover,
+      &.selected {
+        background: $color-primary;
+        a {
+          color: white;
+        }
+
+        img {
+          filter: invert(90%) sepia(46%) saturate(0%) hue-rotate(161deg)
+            brightness(112%) contrast(105%);
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #4d4d4d;
+        margin-left: 3.1rem;
+        margin-right: 3.1rem;
+
+        p {
+          margin-left: 1.1rem;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.6rem;
+          line-height: 1.9rem;
+          text-transform: capitalize;
+        }
+
+        img {
+          filter: invert(23%) sepia(0%) saturate(31%) hue-rotate(146deg)
+            brightness(97%) contrast(73%);
+        }
+      }
+    }
+  }
+}

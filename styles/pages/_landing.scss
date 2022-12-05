@@ -1,0 +1,60 @@
+.landing {
+  height: calc(100vh - $nav-height);
+  background: $background-landing;
+  display: flex;
+  position: relative;
+  display: grid;
+  grid-template-columns: 4.5fr 5.5fr;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 19rem;
+    height: 48rem;
+    top: 0;
+    right: 0;
+    background: url("/assets/ellipse.png");
+    background-repeat: no-repeat;
+  }
+
+  &__img {
+    position: relative;
+    height: calc(100vh - $nav-height);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      background: $landing-shadow-color;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__login {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 25rem;
+      height: 25rem;
+      left: 0.5rem;
+      bottom: 8rem;
+      background: url("/assets/ellipse-2.png");
+      background-repeat: no-repeat;
+    }
+  }
+}

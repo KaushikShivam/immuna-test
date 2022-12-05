@@ -1,0 +1,32 @@
+.paginationButton {
+  height: 3.2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #707070;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  img {
+    filter: invert(45%) sepia(0%) saturate(108%) hue-rotate(189deg)
+      brightness(96%) contrast(93%);
+  }
+
+  &:hover,
+  &--selected {
+    background: $color-primary;
+    color: $color-white;
+
+    img {
+      filter: invert(90%) sepia(46%) saturate(0%) hue-rotate(161deg)
+        brightness(112%) contrast(105%);
+    }
+  }
+
+  &--large {
+    width: 4.4rem;
+  }
+}

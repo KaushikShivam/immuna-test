@@ -1,0 +1,44 @@
+.paginationFooter {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #333333;
+  position: fixed;
+  bottom: 2rem;
+  left: 26.8rem;
+  right: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__left {
+    select {
+      margin: 0 0.8rem;
+      background: #ffffff;
+      border: 1px solid #e0e7ed;
+      border-radius: 8px;
+      height: 3.6rem;
+      width: 5.3rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      color: #333333;
+      background: transparent;
+      background-image: url("/icons/down-caret.svg");
+      background-repeat: no-repeat;
+      background-position-x: 80%;
+      background-position-y: 1.5rem;
+      border: 1px solid #dfdfdf;
+      padding: 1rem;
+      padding-right: 2rem;
+      appearance: none;
+    }
+  }
+
+  &__right {
+    background-color: $color-white;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1.2rem;
+  }
+}

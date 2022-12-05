@@ -1,0 +1,12 @@
+.button {
+  border-radius: $border-radius;
+  height: 6.5rem;
+  width: 100%;
+  border: none;
+  background: $color-primary;
+  cursor: pointer;
+  color: $color-white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}

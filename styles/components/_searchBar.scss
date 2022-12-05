@@ -1,0 +1,22 @@
+.searchBar {
+  border: 1px solid #dcdcdc;
+  border-radius: 2rem;
+  height: 4rem;
+  position: relative;
+  background: url("/icons/search.svg") no-repeat 1.4rem;
+  padding-left: 4rem;
+
+  &--large {
+    width: 35.26rem;
+  }
+
+  &--small {
+    width: 34.1rem;
+  }
+
+  &::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #999999;
+  }
+}

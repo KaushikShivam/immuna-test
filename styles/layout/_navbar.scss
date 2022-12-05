@@ -1,0 +1,29 @@
+.navbar {
+  background-color: $color-white;
+  height: $nav-height;
+  display: flex;
+  align-items: center;
+  padding-left: $padding-large;
+  padding-right: $padding-large;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    cursor: pointer;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin: 0 0.8rem 0 0.8rem;
+    }
+
+    button {
+      border: none;
+      background: none;
+      margin-top: -0.5rem;
+    }
+  }
+}

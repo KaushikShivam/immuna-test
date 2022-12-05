@@ -1,0 +1,38 @@
+.loginForm {
+  padding: 6rem;
+  background-color: $color-white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 0.8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  z-index: 10;
+  width: 100%;
+  position: relative;
+  height: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    width: 100%;
+  }
+
+  &__title {
+    position: absolute;
+    top: 6rem;
+  }
+
+  h2 {
+    margin-top: 1.2rem;
+    margin-bottom: 8.8rem;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  button {
+    margin-top: 5.4rem;
+  }
+}

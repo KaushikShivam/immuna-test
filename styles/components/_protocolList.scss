@@ -1,0 +1,46 @@
+.protocolList {
+  width: 100%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #2c2c2c;
+  border: none;
+  box-shadow: 0px 0px 1.4rem rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  display: block;
+
+  tbody {
+    display: block;
+    height: 66vh;
+    overflow: auto;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  thead {
+    height: 6.1rem;
+    background-color: #e6f0ff;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  tr {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr 2fr;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    width: 100%;
+  }
+
+  th {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 1rem;
+    }
+  }
+}
